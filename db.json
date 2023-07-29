@@ -1,0 +1,88 @@
+{
+    "products": [
+      {
+        "raitenId": 1,
+        "dayId": 1,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nIt has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\nIt was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "category": "book",
+        "imageUrl": "/products/books/bible-1867195_1920.jpeg",
+        "price": 5000,
+        "condition": "new",
+        "order": {
+            "raitenId": 1,
+            "dayId": 1,
+            "orderList": [
+                {
+                    "drink": "キャストドリンク1000",
+                    "hostess_id": 12,
+                    "price": 1000
+                },
+                {
+                    "drink": "キャストドリンク2000",
+                    "hostess_id": 12,
+                    "price": 1000
+                }
+            ],
+            "bottleList": [
+                {
+                    "bottle": "ヴーヴクリコ",
+                    "hostess_id": 2,
+                    "price" : "12000"
+                }
+            ]
+        },
+        "owner": {
+          "id": 1,
+          "username": "taketo",
+          "displayName": "Taketo Yoshida",
+          "email": "taketo@example.com",
+          "profileImageUrl": "/users/1.png",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+        }
+      },
+      {
+        "raitenId": 2,
+        "dayId": 1,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nIt has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\nIt was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "category": "book",
+        "imageUrl": "/products/books/book-1283468_1920.jpeg",
+        "price": 1000,
+        "condition": "new",
+        "owner": {
+          "id": 1,
+          "username": "taketo",
+          "displayName": "Taketo Yoshida",
+          "email": "taketo@example.com",
+          "profileImageUrl": "/users/1.png",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+        }
+      }
+      
+    ],
+    "users": [
+      {
+        "id": 1,
+        "username": "taketo",
+        "displayName": "Taketo Yoshida",
+        "email": "taketo@example.com",
+        "profileImageUrl": "/users/1.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      },
+      {
+        "id": 2,
+        "username": "takuya",
+        "displayName": "Takuya Tejima",
+        "email": "takuya@example.com",
+        "profileImageUrl": "/users/2.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      },
+      {
+        "id": 3,
+        "username": "kourin",
+        "displayName": "Yoshiki Takabayashi",
+        "email": "kourin@example.com",
+        "profileImageUrl": "/users/3.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      }
+    ]
+  }
